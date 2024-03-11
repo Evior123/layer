@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="logo.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="css/tiny-slider.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Layer by Layer </title>
+</head>
+
+<body>
+  <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Layer navigation bar">
+
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Layer by Layer <span>.</span></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsLayer"
+        aria-controls="navbarsLayer" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsLayer">
+        <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li><a class="nav-link" href="shop.html">Shop</a></li>
+          <li><a class="nav-link" href="about.html">About us</a></li>
+        </ul>
+
+        <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+          <li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
+          <li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+  <div class="hero">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-5">
+          <div class="intro-excerpt">
+            <h1>Checkout</h1>
+          </div>
+        </div>
+        <div class="col-lg-7">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="untree_co-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-12">
+        </div>
+      </div>
+    </div>
+    <form method="POST" name="google-sheet">
+      <div class="row">
+        <div class="col-md-6 mb-5 mb-md-0">
+          <h2 class="h3 mb-3 text-black">Conform Details</h2>
+          <div class="p-3 p-lg-5 border bg-white">
+
+            <div class="form-group row">
+              <div class="col-md-6">
+                <label for="c_fname" class="text-black" name="FName" aria-required="true">First Name <span
+                    class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_fname" name="FName">
+              </div>
+              <div class="col-md-6">
+                <label for="c_lname" class="text-black" name="LName">Last Name <span
+                    class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_lname" name="LName">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-md-6">
+                <label for="c_fname" class="text-black" name="Address" aria-required="true">Class and Section <span
+                    class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_fname" placeholder="Class,section" name="Address">
+              </div>
+              <div class="col-md-6">
+                <label for="c_lname" class="text-black" name="Email">Email id <span
+                    class="text-danger">*</span></label>
+                <input type="text" class="form-control" placeholder="example@gmail.com" id="c_lname" name="Email">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-md-12">
+                <label for="c_companyname" class="text-black" name="3D_photo">No of 3D Photo <span
+                    class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_companyname" name="3D_photo" value="1">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-md-6">
+                <label for="c_state_country" class="text-black" name="Photo_frames">No of Photo frames <span
+                    class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_state_country" name="Photo_frames" value="1">
+              </div>
+              <div class="col-md-6">
+                <label for="c_postal_zip" class="text-black" name="sculptures">No of Sculptures <span
+                    class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_sculptures" name="sculptures" value="1">
+              </div>
+            </div>
+
+            <div class="form-group row mb-5">
+              <div class="col-md-6">
+                <label for="c_email_address" class="text-black" name="cookie" value="1">No of Cookie cutters <span
+                    class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_email_address" name="cookie" value="1">
+              </div>
+              <div class="col-md-6">
+                <label for="c_phone" class="text-black">Phone no <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="c_phone" name="Phone_no" value="">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="collapse" id="ship_different_address">
+                <div class="py-2">
+
+                  <div class="form-group">
+                    <label for="c_diff_country" class="text-black">Country <span class="text-danger">*</span></label>
+                  </div>
+
+
+                  <div class="form-group row">
+                    <div class="col-md-6">
+                      <label for="c_diff_fname" class="text-black">First Name <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_fname" name="c_diff_fname">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="c_diff_lname" class="text-black">Last Name <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_lname" name="c_diff_lname">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-md-12">
+                      <label for="c_diff_companyname" class="text-black">Company Name </label>
+                      <input type="text" class="form-control" id="c_diff_companyname" name="c_diff_companyname">
+                    </div>
+                  </div>
+
+                  <div class="form-group row  mb-3">
+                    <div class="col-md-12">
+                      <label for="c_diff_address" class="text-black">class and section <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_address" name="c_diff_address"
+                        placeholder="Class">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Apartment, suite, unit etc. (optional)">
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-md-6">
+                      <label for="c_diff_state_country" class="text-black">State / Country <span
+                          class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_state_country" name="c_diff_state_country">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="c_diff_postal_zip" class="text-black">Posta / Zip <span
+                          class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_postal_zip" name="c_diff_postal_zip">
+                    </div>
+                  </div>
+
+                  <div class="form-group row mb-5">
+                    <div class="col-md-6">
+                      <label for="c_diff_email_address" class="text-black">Email Address <span
+                          class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_email_address" name="c_diff_email_address">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="c_diff_phone" class="text-black">Phone <span class="text-danger">*</span></label>
+                      <input type="text" class="form-control" id="c_diff_phone" name="c_diff_phone"
+                        placeholder="Phone Number">
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="c_order_notes" class="text-black" name="Order_notes">Order Notes</label>
+              <textarea name="Order_notes" id="Order_notes" cols="30" rows="5" class="form-control"
+                placeholder="Write your notes here..."></textarea>
+            </div>
+            <a href="thankyou.html">
+            <input type="submit" name="submit" class="btn btn-black btn-sm btn-block" value="Place Order">
+          </a>
+            <button onclick = "window.location.href='thankyou.html'" href="thankyou.html" class="btn btn-black btn-sm btn-block">Check order</button>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="row mb-5">
+            <div class="col-md-12">
+            </div>
+          </div>
+
+          <div class="row mb-5">
+            <div class="col-md-12">
+              <h2 class="h3 mb-3 text-black">Your Order</h2>
+              <div class="p-3 p-lg-5 border bg-white">
+                <table class="table site-block-order-table mb-5">
+                  <thead>
+                    <th></th>
+                    <th></th>
+                <div class="border p-3 mb-3">
+                  <h3 class="h6 mb-0"><a class="d-block" data-bs-toggle="collapse" href="#collapsebank" role="button"
+                      aria-expanded="false" aria-controls="collapsebank">Google Pay</a></h3>
+
+                  <div class="collapse" id="collapsebank">
+                    <div class="py-2">
+                      <p class="mb-0">Google Pay to-</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="border p-3 mb-3">
+                  <h3 class="h6 mb-0"><a class="d-block" data-bs-toggle="collapse" href="#collapsecheque" role="button"
+                      aria-expanded="false" aria-controls="collapsecheque">Paytm</a></h3>
+
+                  <div class="collapse" id="collapsecheque">
+                    <div class="py-2">
+                      <p class="mb-0">Paytm to-</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="border p-3 mb-5">
+                  <h3 class="h6 mb-0"><a class="d-block" data-bs-toggle="collapse" href="#collapsepaypal" role="button"
+                      aria-expanded="false" aria-controls="collapsepaypal">Paypal</a></h3>
+
+                  <div class="collapse" id="collapsepaypal">
+                    <div class="py-2">
+                      <p class="mb-0">Paypal to-</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+  </form>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxTVa4BdDcl2OGgiHpm80We9bP3UEdHgP9LeXhE-j4GqeLchPzfXfM8x9mW-sSp40qm/exec'
+    const form = document.forms['google-sheet']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thanks for contacting us..! We will send an email to you soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
